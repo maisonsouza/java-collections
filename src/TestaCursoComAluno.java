@@ -11,12 +11,14 @@ public class TestaCursoComAluno {
 
         javaColecoes.matricula(a1);
 
-        javaColecoes.matricula(a3);
+//        javaColecoes.matricula(a3);
         javaColecoes.matricula(a2);
 
         javaColecoes.getAlunos().forEach(aluno -> {
             System.out.println(aluno);
         });
+
+        System.out.println(javaColecoes.estaMatriculado(a3));
 
 
     }
